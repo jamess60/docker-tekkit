@@ -1,0 +1,8 @@
+FROM amazoncorretto:latest
+
+
+RUN mkdir /tekkit
+WORKDIR /tekkit
+
+
+CMD ["java", "-Xmx4096m", "-Xms256m", "-jar", "Tekkit.jar", "nogui"]
