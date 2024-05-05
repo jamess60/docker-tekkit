@@ -5,4 +5,5 @@ RUN mkdir /tekkit
 WORKDIR /tekkit
 
 
-CMD ["java", "-Xmx4096m", "-Xms256m", "-jar", "Tekkit.jar", "nogui"]
+CMD ["sh", "-c", "java -Xmx4096m -Xms256m -jar Tekkit.jar nogui >/dev/null 2>&1"]
+
