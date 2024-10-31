@@ -1,5 +1,20 @@
 # CHANGELOG.md
 
+
+## v3 (2024-10-31)
+Features:
+
+  - General update to base image (usp of the container...)
+  - Added resource limits to docker compose example
+
+Fix:
+
+  - Remove version from docker compose example - deprecated tag
+  - Tweak readme
+
+
+
+
 ## v2 (2024-05-05)
 Fix:
 
