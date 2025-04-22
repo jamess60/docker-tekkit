@@ -1,11 +1,16 @@
 # CHANGELOG.md
 
+## v5 (2025-04-22)
+Features:
+
+  - General update to base image (usp of the container...)
+
+
 
 ## v4 (2025-01-01)
 Features:
 
   - General update to base image (usp of the container...)
-
 
 
 
@@ -19,7 +24,6 @@ Fix:
 
   - Remove version from docker compose example - deprecated tag
   - Tweak readme
-
 
 
 
