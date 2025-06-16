@@ -1,5 +1,12 @@
 # CHANGELOG.md
 
+## v6 (2025-06-16)
+Features:
+
+  - Rebased image from amazoncoretto to openjdk slim (Has halved the image size will still retaining amd64 and aarch64 support)
+  - Add docker health check to image
+
+
 ## v5 (2025-04-22)
 Features:
 

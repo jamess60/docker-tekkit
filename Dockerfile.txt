@@ -1,9 +1,9 @@
-FROM amazoncorretto:latest
-
+FROM openjdk:8-jre-slim
 
 RUN mkdir /tekkit
 WORKDIR /tekkit
 
+HEALTHCHECK --interval=30s --timeout=5s --start-period=60s --retries=3 \
+  CMD sh -c ': </dev/tcp/127.0.0.1/25565' || exit 1
 
 CMD ["sh", "-c", "java -Xmx4096m -Xms256m -jar Tekkit.jar nogui >/dev/null 2>&1"]
-
