@@ -1,5 +1,11 @@
 # CHANGELOG.md
 
+
+## v7 (2026-06-21)
+Features:
+
+  - General update to base image (usp of the container...)
+
 ## v6 (2025-06-16)
 Features:
 
